@@ -12,5 +12,7 @@ def reverse_each_word(words)
 end
 
 def change_words(words)
-  
+  words.split.collect do |word|
+    word.reverse
+  end
 end
