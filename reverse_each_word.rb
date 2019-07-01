@@ -5,10 +5,5 @@ def change_words(words)
 end
 
 def reverse_each_word(words)
-  change_words(words).
-  
-  
-#convertir cadena a una matriz 
-#iterar en cada elemento y usar reverse
-#convertir la matriz en una cadena
+  change_words(words).join
 end
