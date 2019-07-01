@@ -1,5 +1,5 @@
 def reverse_each_word(words)
-  (words.split).collect
+  (words.split).collect do |word|
   
   
 #convertir cadena a una matriz 
