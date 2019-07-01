@@ -7,7 +7,8 @@ end
 def reverse_each_word(words)
   words_return = ""
   words.split.collect do |word|
-    word.reverse
+    words_return << word.reverse
   end
-  change_words(words).join(" ")
+  words_return
+  #change_words(words).join(" ")
 end
